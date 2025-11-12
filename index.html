@@ -1,79 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - The Social Way</title>
-    <link rel="stylesheet" href="style.css"> </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abinas Lokuch - Logo & Design Services</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 
-    <header id="top-nav">
-        <div class="logo">MyName Portfolio</div>
-        <div class="search-bar">
-            <input type="text" placeholder="Search my projects...">
-        </div>
-        <div class="nav-icons">
-            
-            <div class="profile-pic"></div>
-        </div>
-    </header>
+<header>
+    <div class="container">
+        <img src="images/logo.png" alt="Abinas Lokuch Logo">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
 
-    <main id="layout-container">
+<section class="section about" id="about">
+    <h2>About Me</h2>
+    <p>I am Abinas Lokuch from Nepal, providing professional logo, website, mobile, and computer design services. I solve technology problems efficiently and aim to deliver high-quality results to all clients.</p>
+</section>
 
-        <aside id="left-sidebar">
-            <h3>Navigation</h3>
-            <ul>
-                <li><a href="#about">👋 About Me</a></li>
-                <li><a href="#projects">💻 Projects</a></li>
-                <li><a href="#skills">🛠️ Skills</a></li>
-                <li><a href="#contact">📧 Contact</a></li>
-            </ul>
-        </aside>
+<section class="section services" id="services">
+    <h2>Services</h2>
+    <div class="service-box">
+        <h3>Logo Design</h3>
+        <p>Creative and professional logos that represent your brand identity effectively.</p>
+    </div>
+    <div class="service-box">
+        <h3>Website Design</h3>
+        <p>Responsive and modern websites for individuals, businesses, and portfolios.</p>
+    </div>
+    <div class="service-box">
+        <h3>Mobile & Computer Solutions</h3>
+        <p>Technology troubleshooting, app solutions, and computer optimization services.</p>
+    </div>
+</section>
 
-        <section id="main-feed">
+<section class="section contact" id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-form">
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Write your message here" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="responseMessage" style="color:green; margin-top:15px;"></p>
+        <p style="text-align:center; margin-top:15px;"><strong>Payment:</strong> eSewa: 9812461314, Khalti: 9812461314</p>
+    </div>
+</section>
 
-            <article class="feed-post profile-card">
-                <h2>Welcome to My Portfolio!</h2>
-                <p>A Full-Stack Developer passionate about creating...</p>
-                <button>View My Resume</button>
-            </article>
+<section class="social-links">
+    <h2>Social Media</h2>
+    <a href="https://www.facebook.com/abinaslokuch/" target="_blank">Facebook</a>
+    <a href="https://www.youtube.com/@L_abinas" target="_blank">YouTube</a>
+    <a href="mailto:abinaslokuch@gmail.com">Gmail</a>
+</section>
 
-            <article class="feed-post project-post">
-                <div class="post-header">
-                    <span class="user-name">MyName</span> posted a new project.
-                    <span class="timestamp">2 hours ago</span>
-                </div>
-                <h3>Project: E-commerce Clone </h3>
-                <p>Built with React, Node.js, and MongoDB. Features secure payments...</p>
-                <div class="post-actions">
-                    <span>❤️ Like (25)</span>
-                    <span>💬 Comment (5)</span>
-                    <span>🔗 Share</span>
-                </div>
-            </article>
+<footer>
+    &copy; 2025 Abinas Lokuch. All rights reserved.
+</footer>
 
-            <article class="feed-post skill-update">
-                <div class="post-header">
-                    <span class="user-name">MyName</span> updated a skill.
-                    <span class="timestamp">1 day ago</span>
-                </div>
-                <h3>New Skill: AWS Cloud Certification!</h3>
-                <p>Successfully completed the AWS Certified Developer - Associate exam.</p>
-            </article>
-
-        </section>
-
-        <aside id="right-sidebar">
-            <h3>Quick Info</h3>
-            <p><strong>Location:</strong> San Francisco, CA</p>
-            <p><strong>Status:</strong> Open to new opportunities!</p>
-
-            <h3>Contact Me</h3>
-            <p>Email: myemail@example.com</p>
-            <p>LinkedIn: /in/myprofile</p>
-        </aside>
-
-    </main>
-
+<script src="js/main.js"></script>
 </body>
 </html>
