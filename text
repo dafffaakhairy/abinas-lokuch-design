@@ -1,0 +1,10 @@
+abinas-lokuch-website/
+│
+├─ index.html          # Main website page
+├─ css/
+│   └─ style.css       # Optional, if separate CSS
+├─ js/
+│   └─ main.js         # Optional, if separate JS
+├─ images/
+│   └─ logo.png        # Replace with actual logo
+└─ README.md           # Project description
