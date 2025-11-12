@@ -1,117 +1,79 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abinash Loku - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Reset & Base Styles */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Roboto', sans-serif; line-height: 1.6; background-color: #f9f9f9; color: #333; }
-        a { text-decoration: none; color: inherit; }
-        img { max-width: 100%; display: block; }
-
-        /* Header */
-        header { background-color: #1e1e1e; color: #fff; padding: 20px 0; text-align: center; }
-        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
-        header p { font-size: 1.2rem; color: #aaa; }
-
-        /* Navigation */
-        nav { margin-top: 15px; }
-        nav a { margin: 0 15px; font-weight: 500; transition: color 0.3s; }
-        nav a:hover { color: #ff6600; }
-
-        /* Sections */
-        section { padding: 60px 20px; max-width: 1000px; margin: 0 auto; }
-        section h2 { font-size: 2rem; margin-bottom: 20px; color: #1e1e1e; border-bottom: 2px solid #ff6600; display: inline-block; padding-bottom: 5px; }
-
-        /* About */
-        #about p { margin-bottom: 15px; }
-
-        /* Skills */
-        .skills { display: flex; flex-wrap: wrap; gap: 15px; }
-        .skill { background: #ff6600; color: #fff; padding: 10px 20px; border-radius: 5px; font-weight: 500; }
-
-        /* Projects */
-        .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-        .project { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
-        .project:hover { transform: translateY(-5px); }
-        .project h3 { margin-bottom: 10px; color: #1e1e1e; }
-        .project p { font-size: 0.95rem; color: #555; }
-
-        /* Contact */
-        #contact form { display: flex; flex-direction: column; gap: 15px; }
-        #contact input, #contact textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem; width: 100%; }
-        #contact button { background: #1e1e1e; color: #fff; padding: 12px; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer; transition: background 0.3s; }
-        #contact button:hover { background: #ff6600; }
-
-        /* Footer */
-        footer { text-align: center; padding: 20px 0; background-color: #1e1e1e; color: #fff; margin-top: 40px; }
-    </style>
-</head>
+    <title>My Portfolio - The Social Way</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
 
-    <header>
-        <h1>Abinash Lokuch</h1>
-        <p>Web Developer | Designer | Digital Creator</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <header id="top-nav">
+        <div class="logo">MyName Portfolio</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search my projects...">
+        </div>
+        <div class="nav-icons">
+            
+            <div class="profile-pic"></div>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Abinas, a passionate web developer and designer. I specialize in creating beautiful, responsive, and user-friendly websites and digital experiences.</p>
-        <p>I love exploring new technologies and constantly improving my skills to deliver modern solutions.</p>
-    </section>
+    <main id="layout-container">
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">React</div>
-            <div class="skill">Node.js</div>
-            <div class="skill">UI/UX Design</div>
-        </div>
-    </section>
+        <aside id="left-sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#about">👋 About Me</a></li>
+                <li><a href="#projects">💻 Projects</a></li>
+                <li><a href="#skills">🛠️ Skills</a></li>
+                <li><a href="#contact">📧 Contact</a></li>
+            </ul>
+        </aside>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="project">
-                <h3>Portfolio Website</h3>
-                <p>A responsive personal portfolio showcasing my projects, skills, and contact info using HTML, CSS, and JavaScript.</p>
-            </div>
-            <div class="project">
-                <h3>E-commerce Site</h3>
-                <p>An online store built with React and Node.js, featuring product listings, cart functionality, and user authentication.</p>
-            </div>
-            <div class="project">
-                <h3>Blog Platform</h3>
-                <p>A full-stack blog application with CRUD functionality, allowing users to create, edit, and delete posts.</p>
-            </div>
-        </div>
-    </section>
+        <section id="main-feed">
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+            <article class="feed-post profile-card">
+                <h2>Welcome to My Portfolio!</h2>
+                <p>A Full-Stack Developer passionate about creating...</p>
+                <button>View My Resume</button>
+            </article>
 
-    <footer>
-        &copy; 2025 abinaslokuch@gmail.com All Rights Reserved.
-    </footer>
+            <article class="feed-post project-post">
+                <div class="post-header">
+                    <span class="user-name">MyName</span> posted a new project.
+                    <span class="timestamp">2 hours ago</span>
+                </div>
+                <h3>Project: E-commerce Clone </h3>
+                <p>Built with React, Node.js, and MongoDB. Features secure payments...</p>
+                <div class="post-actions">
+                    <span>❤️ Like (25)</span>
+                    <span>💬 Comment (5)</span>
+                    <span>🔗 Share</span>
+                </div>
+            </article>
+
+            <article class="feed-post skill-update">
+                <div class="post-header">
+                    <span class="user-name">MyName</span> updated a skill.
+                    <span class="timestamp">1 day ago</span>
+                </div>
+                <h3>New Skill: AWS Cloud Certification!</h3>
+                <p>Successfully completed the AWS Certified Developer - Associate exam.</p>
+            </article>
+
+        </section>
+
+        <aside id="right-sidebar">
+            <h3>Quick Info</h3>
+            <p><strong>Location:</strong> San Francisco, CA</p>
+            <p><strong>Status:</strong> Open to new opportunities!</p>
+
+            <h3>Contact Me</h3>
+            <p>Email: myemail@example.com</p>
+            <p>LinkedIn: /in/myprofile</p>
+        </aside>
+
+    </main>
 
 </body>
 </html>
